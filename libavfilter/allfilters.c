@@ -323,6 +323,7 @@ void avfilter_register_all(void)
     REGISTER_FILTER(XBR,            xbr,            vf);
     REGISTER_FILTER(YADIF,          yadif,          vf);
     REGISTER_FILTER(ZMQ,            zmq,            vf);
+    REGISTER_FILTER(ZMQIMG,         zmqimg,         vf);
     REGISTER_FILTER(ZOOMPAN,        zoompan,        vf);
     REGISTER_FILTER(ZSCALE,         zscale,         vf);
 
